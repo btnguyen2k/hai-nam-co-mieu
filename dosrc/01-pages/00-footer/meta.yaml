@@ -1,0 +1,12 @@
+title:
+    vi: Footer
+summary:
+    vi: Footer page
+icon: fas fa-info
+img: '{"s":"entry-img-s.jpg","v":"entry-img-v.jpg","h":"entry-img-h.jpg"}'
+page: footer
+style: none
+file:
+    vi: index-vi.md
+tc: 1687707110
+tu: 1687707110

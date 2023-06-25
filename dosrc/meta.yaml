@@ -1,0 +1,21 @@
+name: Hải Nam Cổ Miếu
+description:
+    vi: Hải Nam Cổ Miếu
+languages:
+    default: vi
+    vi: Tiếng Việt
+icon: fas fa-globe
+contacts:
+    discord: https://join/my/discord/(optional)
+    email: my-email-address-(optional)
+    facebook: https://www.facebook.com/my-fb/(optional)
+    github: https://github.com/my-github/(optional)
+    linkedin: https://www.linkedin.com/in/my-linkedin/(optional)
+    slack: https://join/my/slack/channel/(optional)
+    twitter: https://follow/me/on/twitter/(optional)
+    website: https://my/awesome/website(optional)
+tags:
+    build: ${build_datetime}
+tagalias:
+    vi:
+mode: blog
