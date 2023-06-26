@@ -1,9 +1,9 @@
 <template>
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
+      <router-link :to="{name: 'Home'}" class="logo d-flex align-items-center">
         <h1>Hải Nam <span>Cổ Miếu</span></h1>
-      </a>
+      </router-link>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>

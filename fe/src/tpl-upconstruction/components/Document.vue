@@ -75,7 +75,7 @@
                     <div class="post-item mt-3" v-for="doc in latestDocuments" v-bind:key="doc.id">
                       <img :src="$calcDocumentEntryImgUrl(doc, topic.id, '', 's')" alt="">
                       <div>
-                        <h4><a href="blog-details.html">{{ $localedText(doc.title) }}</a></h4>
+                        <h4><router-link :to="{name: 'Document', params: {tid: topic.id, did: doc.id}}">{{ $localedText(doc.title) }}</router-link></h4>
                         <time>{{ $unixTimestampToReadable(doc.tc) }}</time>
                       </div>
                     </div>
@@ -110,6 +110,9 @@
 </template>
 
 <script>
+/* Lightbox for Bootstrap 5 */
+import Lightbox from 'bs5-lightbox'
+
 import {useRoute} from 'vue-router'
 import {watch} from 'vue'
 import '@/_shared/assets/markdown-gfm.css'
@@ -142,6 +145,7 @@ export default {
     documentContentRendered() {
       const text = this.$localedText(this.document.content)
       if (typeof text == "string") {
+        this._updateLightbox()
         return markdownRender(text, {
           sanitize: true,
           tags: this.$siteMeta.tags,
@@ -152,14 +156,19 @@ export default {
     latestDocuments() {
       const result = []
       for (let i = 0; i < this.$latestDocuments.length; i++) {
-        // if (this.$latestDocuments[i].id != this.document.id) {
+        if (this.$latestDocuments[i].id != this.document.id) {
           result.push(this.$latestDocuments[i])
-        // }
+        }
       }
       return result
     },
   },
   methods: {
+    _updateLightbox() {
+      this.$nextTick(() => {
+        document.querySelectorAll('[data-toggle="lightbox"]').forEach(el => el.addEventListener('click', Lightbox.initialize));
+      })
+    },
     _fetchSiteMeta(vue) {
       vue.$fetchSiteMeta(
           () => vue.status = 0,
