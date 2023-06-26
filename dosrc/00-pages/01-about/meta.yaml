@@ -1,0 +1,12 @@
+title:
+    vi: About
+summary:
+    vi: About page
+icon: fas fa-info
+img: '{"s":"entry-img-s.jpg","v":"entry-img-v.jpg","h":"entry-img-h.jpg"}'
+page: about
+style: none
+file:
+    vi: index-vi.md
+tc: 1687702669
+tu: 1687702669
