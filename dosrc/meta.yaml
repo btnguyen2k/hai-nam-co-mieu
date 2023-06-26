@@ -4,7 +4,7 @@ description:
 languages:
     default: vi
     vi: Tiếng Việt
-icon: fas fa-globe
+icon: bi bi-globe
 contacts:
     discord: https://join/my/discord/(optional)
     email: my-email-address-(optional)

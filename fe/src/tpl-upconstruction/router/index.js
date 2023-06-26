@@ -5,7 +5,7 @@ const router = initRouter({
     // '_search': () => import('@/tpl-upconstruction/components/Search.vue'),
     // '_tagsearch': () => import('@/tpl-upconstruction/components/TagSearch.vue'),
     'home': () => import('@/tpl-upconstruction/components/Home.vue'),
-    // 'topic': () => import('@/tpl-upconstruction/components/Topic.vue'),
+    'topic': () => import('@/tpl-upconstruction/components/Topic.vue'),
     // 'document': () => import('@/tpl-upconstruction/components/Document.vue'),
 })
 
