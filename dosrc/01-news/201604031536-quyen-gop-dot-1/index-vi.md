@@ -1,6 +1,6 @@
 <p style="text-align: center; font-weight: bold">
 海南廟重建樂捐款數<br/>
-TIỀN QUYÊN GÓP CẤT LẠI CHÙA HẢI NAM (trước ngày khởi công)<br/>
+TIỀN QUYÊN GÓP CẤT LẠI CHÙA HẢI NAM (Trước ngày khởi công)<br/>
 (ĐỢT I)
 </p>
 
