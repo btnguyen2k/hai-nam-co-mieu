@@ -6,7 +6,7 @@ const router = initRouter({
     // '_tagsearch': () => import('@/tpl-upconstruction/components/TagSearch.vue'),
     'home': () => import('@/tpl-upconstruction/components/Home.vue'),
     'topic': () => import('@/tpl-upconstruction/components/Topic.vue'),
-    // 'document': () => import('@/tpl-upconstruction/components/Document.vue'),
+    'document': () => import('@/tpl-upconstruction/components/Document.vue'),
 })
 
 export default router
