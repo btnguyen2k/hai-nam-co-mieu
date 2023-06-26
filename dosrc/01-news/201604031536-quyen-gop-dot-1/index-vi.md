@@ -1,3 +1,9 @@
+<p style="text-align: center; font-weight: bold">
+海南廟重建樂捐款數<br/>
+TIỀN QUYÊN GÓP CẤT LẠI CHÙA HẢI NAM (trước ngày khởi công)<br/>
+(ĐỢT I)
+</p>
+
 |STT|Ngày|Họ tên người quyên góp|Số tiền|Ghi chú|
 |:-:|----|----------------------|------:|-------|
 | 1|04/04/2013|鄭素雲小姐 - cô Trịnh Tố Vân|5,000,000|
