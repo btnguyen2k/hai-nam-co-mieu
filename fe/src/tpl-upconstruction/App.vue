@@ -135,7 +135,7 @@ export default {
           return img
         }
         const base = router.resolve({name: 'Document', params: {tid: topicId, did: doc.id}}).href
-        return APP_CONFIG.api_client.be_api_base_url+base + img
+        return (APP_CONFIG.api_client.be_api_base_url?APP_CONFIG.api_client.be_api_base_url:'') + base + img
       }
       return defaultUrl
     },
