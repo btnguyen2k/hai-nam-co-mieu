@@ -5,10 +5,11 @@
         <h1>Hải Nam <span>Cổ Miếu</span></h1>
       </router-link>
 
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <!-- disable mobile menu -->
+<!--      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>-->
+<!--      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>-->
       <nav id="navbar" class="navbar">
-        <ul>
+        <ul v-if="false"><!-- disable nagivation bar-->
           <li><router-link :to="{name: 'Home'}" :class="$props['active']=='home'?'active':''">{{ $t('home') }}</router-link></li>
           <li v-for="topic in visibleTopics" v-bind:key="topic.id">
             <router-link :to="{name: 'Topic', params: {tid: topic.id}}"
