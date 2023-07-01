@@ -16,7 +16,7 @@
     <main id="main">
       <div class="breadcrumbs d-flex align-items-center" :style="'background-image: url('+($calcDocumentEntryImgUrl($specialDocuments['about'], $specialDocuments['about'].topic.id, '', 'h'))+')'">
         <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
-          <h2>{{ $localedText(topic.title) }}</h2>
+          <h2>&nbsp;<!--{{ $localedText(topic.title) }}--><!--disable topic title--></h2>
           <ol><li>&nbsp;</li></ol>
         </div>
       </div>

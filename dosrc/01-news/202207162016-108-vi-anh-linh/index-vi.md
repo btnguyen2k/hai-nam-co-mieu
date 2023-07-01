@@ -70,6 +70,8 @@
     ]]
 ```
 
-<video width="480" height="150" controls="controls">
-    <source src="108-vi-anh-linh-v01.mp4" type="video/mp4">
-</video>
+<div class="ratio ratio-1x1">
+    <video width="480" height="150" controls="controls">
+        <source src="108-vi-anh-linh-v01.mp4" type="video/mp4">
+    </video>
+</div>
