@@ -1,4 +1,4 @@
-Tại Hải Nam Cổ Miếu (đường Lý Văn Lâm - F1 - TPCM) tổ chức Lễ Vía 108 Vị Chiêu Ứng Công Anh Liệt, vào ngày ngày 15/06/ÂL hàng năm.
+Tại Hải Nam Cổ Miếu (đường Lý Văn Lâm - F1 - TP Cà Mau) tổ chức Lễ Vía 108 Vị Chiêu Ứng Công Anh Liệt, vào ngày ngày 15/06/ÂL hàng năm.
 
 ```bs-cards cols=1 equals lightbox=mygallery
     [[bs-card
